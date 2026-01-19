@@ -94,6 +94,7 @@
 }
 .hero-microphone{
     position: absolute;
+    top: 85px;
 }
 .hero-new button{
     padding: 8px 16px;
@@ -104,7 +105,8 @@
 }
 .hero-new{
     position: absolute;
-
+    top: 130px;
+    margin-right: -270px;
 }
 .hero-header h1{
     font-size: 60px;
@@ -123,6 +125,42 @@
     background-color: rgba(255, 255, 255, 0);
     cursor: pointer;
     margin-left: 5px;
+}
+
+
+/* About the Podcast */
+.podcast{
+    max-width: 1200px;
+    margin: 50px auto 0;
+    color: white;
+}
+.about{
+    text-align: center;
+}
+.about h2{
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 16px;
+}
+.about p{
+    line-height: 2;
+}
+hr{
+    margin-top: 80px;
+    border: 1px solid rgb(58, 58, 58);
+}
+.monthly-rank{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 120px;
+    
+}
+.monthly-rank h2{
+    font-size: 48px;
+    font-weight: 900;
+    color: #00FF88;
 }
 
 
@@ -146,7 +184,7 @@
     }
     .nav-logo h3{
         font-size: 25px;
-        padding-left: 10px;
+        padding-left: 20px;
     }
     .nav-menu{
         display: none;
@@ -159,11 +197,58 @@
         display: inline;
         align-items: center;
         padding-top: 6px;
-        padding-right: 10px;
+        padding-right: 20px;
     }
 
 
     /* Hero Section */
+    .hero{
+    text-align: center;
+    background-image: url(./images/hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 466px;
+    }
+    .hero-image img{
+        width: 200px;
+        margin-bottom: 20px;
+    }
+    .hero-microphone img{
+        width: 60px;
+    }
+    .hero-microphone{
+        top: 55px;
+    }
+    .hero-new{
+        top: 110px;
+        margin-right: -180px;
+    }
+    .hero-header h1{
+        font-size: 40px;
+    }
 
+
+    /* About the Podcast */
+    .about{
+        margin-top: 100px;
+        padding: 0 20px;
+    }
+    .about h2{
+        font-size: 32px;
+    }
+    .about p{
+        text-align: center;
+    }
+    hr{
+        margin: 40px 20px 0;
+    }
+    .monthly-rank{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 40px 0;
+        gap: 40px;
+    }
 }
 
