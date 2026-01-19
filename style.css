@@ -25,7 +25,7 @@
     cursor: pointer;
 }
 .nav-logo-gradient{
-    background: linear-gradient(rgba(145, 0, 248, 1),rgba(251, 9, 180, 1),rgba(247, 233, 63, 1));
+    background: linear-gradient(to top right,#F7E93F 10%,#FB09B4 51%,#9100F8 100%);
     background-clip: text;
     color: transparent;
 }
@@ -110,7 +110,7 @@
 }
 .hero-header h1{
     font-size: 60px;
-    font-weight: 800;
+    font-weight: 900;
     margin-bottom: 8px;
 }
 .hero-header p{
@@ -349,6 +349,41 @@ hr{
 }
 
 
+/* Footer */
+.footer-banner{
+    background-image: url(./images/footer-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 412px;
+    margin-top: 120px;
+}
+.footer-center{
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+}
+.footer-center h1{
+    font-size: 80px;
+    font-weight: 900;
+    margin-bottom: 32px;
+}
+.footer-logo-2{
+    background: linear-gradient(to top right,#F7E93F 10%,#FB09B4 51%,#9100F8 100%);
+    background-clip: text;
+    color: transparent;
+}
+.footer-icon-text{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: px;
+    width: 550px;
+    margin: 0 auto;
+    margin-bottom: 32px;
+    
+}
+
+
 
 
 
@@ -442,6 +477,7 @@ hr{
     .choice-set-header h2{
         font-size: 32px;
         padding-top: 40px;
+        margin-bottom: 24px;
     }
     .choice-set-card-list{
         display: grid;
@@ -470,6 +506,19 @@ hr{
         display: grid;
         grid-template-columns: repeat(1, 400px);
         gap: 20px;
+    }
+
+
+    /* Meet the Host */
+    .host{
+        margin-top: 20px;
+        padding: 20px;
+    }
+    .host-details{
+        flex-direction: column;
+        text-align: center;
+        gap: 16px;
+        padding: 24px;
     }
 
 }
