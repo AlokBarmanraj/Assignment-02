@@ -465,7 +465,7 @@ hr{
 
     /* Why Choose TechWave */
     .choice-set-size{
-        padding: 0;
+        padding: 0 0 50px ;
     }
     .choice-set-header h2{
         font-size: 32px;
@@ -628,7 +628,7 @@ hr{
         grid-template-columns: repeat(1,1fr);
         grid-template-rows: repeat(5, 270px);
         padding: 0 20px;
-        gap: 20px;
+        gap: 25px;
     }
     .choice-set-card-1{
         grid-row: span 1;
